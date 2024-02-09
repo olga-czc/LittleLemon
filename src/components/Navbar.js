@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Navigation from "./Navigation";
 import Hamburger from "../assets/hamburger.png";
 import Close from "../assets/close.png";
 export default function Navbar() {
@@ -20,6 +21,7 @@ export default function Navbar() {
           <img src={navbarOpen ? Close : Hamburger} alt="Navigation Bar" />
         </button>
       </nav>
+      <Navigation device="desktop" />
     </nav>
   );
 }
