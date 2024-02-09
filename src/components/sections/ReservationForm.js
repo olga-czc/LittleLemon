@@ -169,6 +169,7 @@ export default function ReservationForm(props) {
           Book Table
         </Link>
       </div>
+      <div className="line"></div>
     </form>
   );
 }

@@ -365,6 +365,7 @@ footer > menu {
 
 .reserve-header-text {
   background-color: #495e57;
+  color: #edefee;
   padding: 0 3rem 0 3rem;
   position: absolute;
   top: 50%;
@@ -375,12 +376,20 @@ footer > menu {
 }
 
 .reservation-form {
+  background-color: #495e57;
+  color: #edefee;
   padding: 2rem 0 0.5rem 0;
   text-align: center;
 }
 
 .reservation-form > div {
   margin-bottom: 1.5rem;
+}
+
+.line {
+  margin-top: 5rem;
+  height: 1rem;
+  background-color: #f4ce14;
 }
 
 .confirmation-header {
@@ -469,6 +478,7 @@ footer > menu {
   }
 
   .reserve-header-text {
+    color: #edefee;
     font-size: 20px;
   }
 
@@ -513,6 +523,7 @@ footer > menu {
   }
 
   .reserve-header-text {
+    color: #edefee;
     font-size: 15px;
   }
 
