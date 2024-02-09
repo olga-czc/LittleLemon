@@ -21,7 +21,8 @@ export default function Navbar() {
           <img src={navbarOpen ? Close : Hamburger} alt="Navigation Bar" />
         </button>
       </nav>
-      <Navigation device="desktop" />
+      {/* <Navigation device="desktop" /> 
+      {navbarOpen ? <Navigation device="mobile" /> : ""} */}
     </nav>
   );
 }
